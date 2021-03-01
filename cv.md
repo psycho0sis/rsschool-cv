@@ -17,7 +17,7 @@ At the moment i  don't know any programming languages perfectly, but i study so 
 </body>
 ```
 
-**My education**
+*My education*
 1.BSEU, bachelor's degree in economics
 2.online marathon "fundamentals of web development" by FrontendBlock
 3.offline intensive web development in Minsk
