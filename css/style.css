@@ -1,0 +1,118 @@
+    body {
+    margin: auto;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+    background-color: rosybrown;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	width: 70%;
+	max-width: 1140px;
+	margin: auto;
+    background-color: #fff;
+    border: 10px solid #fff;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 150px;
+    background-image: url('https://images.unsplash.com/photo-1505778489066-159c5f4a6c0f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.user-foto {
+    display: flex;
+    width: 20%;
+    height: 150px;
+    margin-left: 10px;
+}
+.main-title {
+    font-size: 30px;
+    margin: auto;
+    background-color: rgb(193, 213, 216);
+    z-index: 2;
+    opacity: 0.9;
+}
+
+
+.content-wrapper {
+    display: flex;
+  margin-top: -40px;
+
+}
+.content {
+    width: 70%;
+    padding: 20px;
+    margin-top: 30px;
+}
+.main-description {
+    font-size: 16px;
+}
+.education{
+    font-size: 18px;
+    list-style-type: square;
+}
+.sidebar {
+    padding: 20px;
+    width: 30%;
+}
+
+.skills-title {
+    text-align: center;
+    margin: 60px;
+}
+.skills li {
+margin: 10px 0;
+padding: 20px;
+list-style-type: none;
+transition: transform 0.3s ease;
+}
+
+.skills li:hover {
+    transform: translate(17px);
+    background-color: rgb(172, 189, 192);
+}
+
+.footer {
+	margin-top: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.footer-links {
+    list-style-type: none;
+}
+
+ul.footer-links {
+    align-items: center;
+    margin: 0 10px;
+
+    padding: 4px;
+}
+
+ul.footer-links li {
+    display: inline;
+}
